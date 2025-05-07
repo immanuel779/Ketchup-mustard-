@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient(135deg,green,blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container{
+  background-color: #C1E1C1;
+  width: 350px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.form-container h3{
+  margin-bottom: 20px;
+  color: green;
+  text-align: center;
+}
+
+.form-container h2{
+  margin-bottom: 20px;
+  color: green;
+  text-align: center;
+}
+
+.form-group{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-group label{
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: green;
+}
+
+.form-group input{
+  width: 100%;
+  height: 40px;
+  padding: 10%;
+  border: none;
+  border-bottom: 2px solid green;
+  border-radius: 8px;
+}
+
+.form-group input:focus{
+  border-radius: green;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 107, 107, 0.3);
+}
+
+.input-cnt > input[type="submit"] {
+      border: none;
+      border-radius: 20px;
+      outline: none;
+      width: 100%;
+      margin: 0 auto;
+      font-size: 105%;
+      padding: 12px;
+      color: whitesmoke;
+      background: green;
+      transition-duration: .5s;
+    }
+    
+    .input-cnt > input[type="submit"]:hover {
+      color: white;
+      background: blue;
+    }
+    
+span{
+  font-size: 14px;
+  text-align: center;
+}
+
+span a{
+  color: green;
+  text-decoration: none;
+}
+
+.text{
+  text-align: center;
+}
